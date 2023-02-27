@@ -32,7 +32,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 .content2 {
     width: 50%;
@@ -58,14 +58,15 @@
     font-weight: 300;
 }
 
-.form {
+.form1 {
     width: 40%;
     padding: 40px;
     background: #aadaf1;
     box-shadow: 0px 0px 19px 5px rgb(138, 218, 236);
 }
-.form h3 {
+.form1 h3 {
     font-size: 30px;
+    padding-bottom: 20px;
 }
 .inputBox {
     position: relative;
@@ -74,7 +75,7 @@
 }
 .inputBox input, textarea {
     width: 100%;
-    padding: 5px 0;
+    padding: 0.5rem 1rem;
     font-size: 16px;
     margin: 10px 0;
     border: none;
@@ -92,14 +93,13 @@
     color: gray;
 }
 .inputBox input:focus ~ span, input:valid ~ span, textarea:focus ~ span, textarea:valid ~ span {
-    color: red;
+    color: black;
     font-size: 12px;
     transform: translateY(-20px);
 }
 .inputBox input[type="submit"] {
     width: 100px;
     border: none;
-    border-radius: 30px;
     cursor: pointer;
     padding: 10px;
 }
@@ -115,7 +115,7 @@
     .content2 {
         margin-bottom: 40px;
     }
-    .content2, form {
+    .content2, form1 {
         width: 100%;
     }
 }

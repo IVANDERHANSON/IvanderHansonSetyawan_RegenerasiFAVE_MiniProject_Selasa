@@ -34,20 +34,20 @@
                         </div>
                 </div>
             </div>
-            <div class="form">
+            <div class="form1">
                 <form>
                     <h3>Send Message</h3>
                     <div class="inputBox">
-                        <input type="text" required="required" minlength="3">
-                        <span>Full Name</span>
+                        <input type="text" name="inputName">
+                        <span id="validName">Full Name</span>
                     </div>
                     <div class="inputBox">
-                        <input type="email" required="required">
-                        <span>Email</span>
+                        <input type="email" name="inputEmail">
+                        <span id="validEmail">Email</span>
                     </div>
                     <div class="inputBox">
-                        <textarea required="required" minlength="3"></textarea>
-                        <span>Type your message...</span>
+                        <textarea name="inputMessage"></textarea>
+                        <span id="validMessage">Type your message...</span>
                     </div>
                     <div class="inputBox">
                         <input type="submit" value="Send">
@@ -56,5 +56,6 @@
             </div>
         </div>
     </section>
+<script src="script.js"></script>
 </body>
 </html>
